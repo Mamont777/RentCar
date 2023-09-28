@@ -13,7 +13,7 @@ const NotFound = () => {
         bg-gradient-to-r
         from-blue-300
         via-slate-300
-        to-stone-500 bg-clip-text text-center text-transparent drop-shadow-[0_1px_3px_rgba(250,250,250,1)] mb-32"
+        to-stone-500 bg-clip-text text-center text-transparent drop-shadow-[0_1px_3px_rgba(250,250,250,1)]"
       >
         NO FAVORITE CARS AVAILABLE
       </MainTitle>
@@ -21,7 +21,7 @@ const NotFound = () => {
         src={NotFoundCar}
         alt="car"
         width="1200"
-        className="absolute bottom-0 right-0 z-[60]"
+        className="absolute top-30 right-0 z-[60]"
       />
     </section>
   );
